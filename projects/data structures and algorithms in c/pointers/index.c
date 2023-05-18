@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+int test_val(int a, int b){
+
+return a+b;
+}
+
 int main(){
 
     //creating a pointer in c
@@ -12,7 +17,7 @@ int main(){
     //  printf("am now pointing to x is  %d",*pointer_x);
 
 
-
+     printf("%d",test_val(2,3));
      int i =56;
       int *p,*q;
       p=&i;
