@@ -8,6 +8,9 @@ int age;
 
 
 
+
+
+
 int main(){
 
     struct player p;
@@ -21,6 +24,12 @@ printf("%d",p1.age);
 
 printf("%d",age);
 printf("%s",p.name);
+
+
+
+//adding using pointers in a function
+
+
 
 
     return 0;

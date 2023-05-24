@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int test_val(int a, int b){
+int test_val(int *a, int *b){
 
-return a+b;
+return *a+*b;
 }
 
 int main(){
@@ -16,7 +16,9 @@ int main(){
 
     //  printf("am now pointing to x is  %d",*pointer_x);
 
-
+   int A =8;
+   int B =8;
+   
      printf("%d",test_val(2,3));
      int i =56;
       int *p,*q;
