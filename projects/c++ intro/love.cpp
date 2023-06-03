@@ -1,7 +1,8 @@
 #include <iostream>
-#include <cstdlib>
+#include <cmath>
 
 using namespace std;
+
 
 int main(){
   //variables
@@ -36,8 +37,6 @@ int main(){
    cout << "your love results are " << results <<"%" <<endl;
     }
     
-
-
      //check if there is name for the boy generate a number from 1-50 
 
 
